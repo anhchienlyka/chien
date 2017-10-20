@@ -1,0 +1,626 @@
+
+.paragraph-row {
+	display: block;
+	clear: both;
+	position: relative;
+	margin-bottom: 0px;
+}
+
+.paragraph-row:after {
+	display: block;
+	clear: both;
+	content: '';
+}
+
+.paragraph-row .column12{width:100%;*width:99.94680851063829%;}
+.paragraph-row .column11{width:91.48936170212765%;*width:91.43617021276594%;}
+.paragraph-row .column10{width:82.97872340425532%;*width:82.92553191489361%;}
+.paragraph-row .column9{width:74.46808510638297%;*width:74.41489361702126%;}
+.paragraph-row .column8{width:65.95744680851064%;*width:65.90425531914893%;}
+.paragraph-row .column7{width:57.44680851063829%;*width:57.39361702127659%;}
+.paragraph-row .column6{width:48.93617021276595%;*width:48.88297872340425%;}
+.paragraph-row .column5{width:40.42553191489362%;*width:40.37234042553192%;}
+.paragraph-row .column4{width:31.914893617021278%;*width:31.861702127659576%;}
+.paragraph-row .column3{width:23.404255319148934%;*width:23.351063829787233%;}
+.paragraph-row .column2{width:14.893617021276595%;*width:14.840425531914894%;}
+.paragraph-row .column1{width:6.382978723404255%;*width:6.329787234042553%;}
+
+.paragraph-row > li,
+.paragraph-row > div {
+	float: left;
+	margin-left: 2.127659574468085%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.paragraph-row > li:first-child,
+.paragraph-row > div:first-child {
+	margin-left: 0px;
+	padding-left: 0px;
+}
+
+.google-maps,
+.video-embed {
+	display: block;
+	position: relative;
+	height: 0;
+	padding-bottom: 56.25%;
+	margin-bottom: 25px;
+}
+
+.google-maps iframe,
+.video-embed object, .video-embed embed, .video-embed iframe {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%!important;
+	height: 100%!important;
+}
+
+
+.shortcode-content:first-child {
+	margin-top: 8px;
+}
+
+.shortcode-content p {
+	line-height: 150%;
+}
+
+.shortcode-content h6,
+.shortcode-content h5,
+.shortcode-content h4,
+.shortcode-content h3,
+.shortcode-content h2,
+.shortcode-content h1 {
+	margin-top: 0px;
+	margin-bottom: 25px;
+	color: #3f3f3f;
+}
+
+.shortcode-content .wp-caption {
+	display: block;
+	margin-bottom: 25px;
+	background: #f7f7f7;
+	color: #8b8b8b;
+	font-size: 14px;
+}
+
+.shortcode-content .wp-caption > a {
+	display: block;
+}
+
+.shortcode-content .wp-caption .wp-caption-text {
+	display: block;
+	padding: 18px 20px;
+	font-style: italic;
+}
+
+.ot-photo-gallery-shortcode {
+	display: block;
+	margin-bottom: 25px;
+	background: #f7f7f7;
+	padding: 20px;
+}
+
+.ot-photo-gallery-shortcode .gallery-shortcode-text {
+	display: block;
+	margin-bottom: 20px;
+}
+
+.ot-photo-gallery-shortcode .gallery-shortcode-text h4 {
+	display: block;
+	margin-bottom: 15px;
+	font-size: 22px;
+	letter-spacing: -0.2px;
+}
+
+.ot-photo-gallery-shortcode .gallery-shortcode-text p {
+	display: block;
+	font-size: 14px;
+	line-height: 150%;
+}
+
+.ot-photo-gallery-shortcode .gallery-shortcode-thumbs {
+	display: block;
+	position: relative;
+	font-size: 0;
+}
+
+.ot-photo-gallery-shortcode .gallery-shortcode-thumbs a {
+	display: inline-block;
+	font-size: 13px;
+	text-align: center;
+	width: 15%;
+	margin-left: 2%;
+	background: #e7e7e7;
+	color: #919191;
+	vertical-align: bottom;
+}
+
+.ot-photo-gallery-shortcode .gallery-shortcode-thumbs a img {
+	width: 100%;
+}
+
+.ot-photo-gallery-shortcode .gallery-shortcode-thumbs a:hover {
+	background: #d8d8d8;
+	color: #7a7a7a;
+}
+
+.ot-photo-gallery-shortcode .gallery-shortcode-thumbs a:first-child {
+	margin-left: 0px;
+}
+
+.ot-photo-gallery-shortcode .gallery-shortcode-thumbs a.no-image {
+	padding-bottom: 15%;
+	position: relative;
+}
+
+.ot-photo-gallery-shortcode .gallery-shortcode-thumbs a.no-image strong {
+	position: absolute;
+	width: 100%;
+	left: 0px;
+	top: 50%;
+	margin-top: -22px;
+	text-align: center;
+	font-size: 18px;
+}
+
+.ot-photo-gallery-shortcode .gallery-shortcode-thumbs a.no-image strong span {
+	display: block;
+	font-size: 12px;
+}
+
+
+.ot-spacer {
+	display: block;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	text-align: center;
+	vertical-align: bottom;
+	font-size: 0;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #ccc;
+	line-height: 100%;
+	background: #f0f0f0;
+	height: 1px;
+	position: relative;
+}
+
+.ot-spacer i.fa {
+	display: inline-block;
+	margin-bottom: 4px;
+	margin-top: -10px;
+	font-size: 20px;
+	line-height: 100%;
+	background-color: #fff;
+	padding: 0 20px;
+	position: relative;
+	z-index: 2;
+}
+
+.ot-spacer strong {
+	display: inline-block;
+	margin-bottom: 6px;
+	margin-top: -10px;
+	line-height: 100%;
+	background-color: #fff;
+	padding: 0 20px;
+	font-size: 13px;
+	position: relative;
+	z-index: 2;
+}
+
+.ot-spacer strong:nth-child(n+2),
+.ot-spacer i.fa:nth-child(n+2) {
+	padding-left: 0px;
+}
+
+.ot-spacer.spacer-1 {
+	height: 1px;
+}
+
+.ot-spacer.spacer-2 {
+	height: 3px;
+}
+
+.ot-spacer.spacer-3 {
+	height: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+.ot-spacer.spacer-3:before {
+	display: block;
+	position: absolute;
+	z-index: 1;
+	content: '';
+	height: 2px;
+	background: #fff;
+	left: 0px;
+	top: 2px;
+	width: 100%;
+}
+
+.shortcode-content blockquote {
+	margin-bottom: 25px;
+}
+
+.shortcode-content blockquote p {
+	margin-bottom: 15px;
+}
+
+.shortcode-content blockquote footer {
+	color: #aaa;
+}
+
+.shortcode-content blockquote.blockquote-style-2 {
+	border-left: 0px;
+	padding-left: 50px;
+	position: relative;
+}
+
+.shortcode-content blockquote.blockquote-style-2:before {
+	display: block;
+	position: absolute;
+	content: '"';
+	font-family: 'Arvo', serif;
+	left: 0px;
+	line-height: 100%;
+	font-size: 70px;
+}
+
+.shortcode-content blockquote.blockquote-style-2.blockquote-reverse {
+	padding-left: 0px;
+	padding-right: 50px;
+	border-right: 0px;
+}
+
+.shortcode-content blockquote.blockquote-style-2.blockquote-reverse:before {
+	display: block;
+	position: absolute;
+	content: '"';
+	font-family: 'Arvo', serif;
+	left: auto;
+	right: 0px;
+	line-height: 100%;
+	font-size: 70px;
+}
+
+.shortcode-content blockquote.blockquote-style-2 p {
+	font-size: 16px;
+}
+
+.shortcode-content blockquote.blockquote-style-3 {
+	border-left: 5px solid #eb6435;
+	position: relative;
+}
+
+.shortcode-content blockquote.blockquote-style-3 p {
+	font-size: 15px;
+	color: #eb6435;
+	font-size: 16px;
+}
+
+.shortcode-content blockquote.blockquote-style-3.blockquote-reverse {
+	border-left: 0;
+	border-right: 5px solid #eb6435;
+}
+
+.shortcode-content ol,
+.shortcode-content ul {
+	margin-bottom: 25px;
+	line-height: 150%;
+	font-size: 14px;
+}
+
+.shortcode-content ol {
+	list-style: decimal;
+	padding-left: 20px;
+}
+
+.shortcode-content ol li,
+.shortcode-content ul li {
+	margin-top: 10px;
+}
+
+.shortcode-content ol > li:first-child,
+.shortcode-content ul > li:first-child {
+	margin-top: 0;
+}
+
+.color-scheme-table {
+	display: block;
+	margin-bottom: 25px;
+}
+
+.color-scheme-table .color-scheme-row {
+	display: block;
+	margin-bottom: 3px;
+	background: #f7f7f7;
+	color: #8b8b8b;
+	font-size: 13px;
+}
+
+.color-scheme-table .color-scheme-row:after {
+	display: block;
+	clear: both;
+	content: '';
+}
+
+.color-scheme-table .color-scheme-row .left {
+	display: block;
+	padding: 11px 0px;
+	text-align: center;
+	width: 90px;
+	color: #fff;
+	background-color: #232323;
+}
+
+.color-scheme-table .color-scheme-row .left.scheme-light {
+	color: #8b8b8b;
+}
+
+.color-scheme-table .color-scheme-row strong {
+	display: block;
+	margin-left: 100px;
+	padding: 11px 10px;
+	font-weight: normal;
+}
+
+.shortcode-content .button {
+	display: inline-block;
+	color: #8b8b8b;
+	font-weight: bold;
+	font-size: 13px;
+	border: 0px;
+	padding: 12px 18px;
+	background: #f4f4f4;
+	box-shadow: inset 0 0 0 50px transparent;
+	border-radius: 2px;
+	box-shadow: inset 0 0 0 50px transparent;
+	transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-webkit-transition: all 0.2s;
+	-o-transition: all 0.2s;
+}
+
+.shortcode-content .button:hover {
+	box-shadow: inset 0 0 0 50px rgba(255,255,255,0.3);
+}
+
+.shortcode-content .button:active {
+	box-shadow: inset 0 0 0 50px rgba(0,0,0,0.1);
+}
+
+.shortcode-content .marker {
+	display: inline-block;
+	color: #fff;
+	padding: 0 6px;
+	border-radius: 2px;
+}
+
+.shortcode-content .table {
+	margin-bottom: 25px;
+}
+
+.shortcode-content .short-tabs {
+	display: block;
+	margin-bottom: 25px;
+}
+
+.shortcode-content .short-tabs > ul {
+	display: block;
+	margin-bottom: 0px;
+	font-size: 0;
+}
+
+.shortcode-content .short-tabs > ul li {
+	display: inline-block;
+	font-size: 14px;
+	margin-top: 0px;
+}
+
+.shortcode-content .short-tabs > ul li a {
+	display: block;
+	line-height: 100%;
+	background-color: #f7f7f7;
+	color: #8b8b8b;
+	font-weight: bold;
+	padding: 18px 16px;
+	border-bottom: 1px solid #EBEBEB;
+	margin-bottom: -1px;
+	box-shadow: inset 0 -3px 0 #fff, inset -1px 0 0 transparent, inset 1px 0 0 transparent, inset 0 1px 0 transparent;
+	margin-right: 3px;
+}
+
+.shortcode-content .short-tabs > ul li:hover a {
+	background-color: #f0f0f0;
+}
+
+.shortcode-content .short-tabs > ul li.active a {
+	background: #fff;
+	border-bottom: 1px solid #fff;
+	box-shadow: inset 0 -3px 0 transparent, inset -1px 0 0 #ebebeb, inset 1px 0 0 #ebebeb, inset 0 1px 0 #ebebeb;
+}
+
+.shortcode-content .short-tabs > div {
+	display: none;
+	padding: 20px;
+	border: 1px solid #ebebeb;
+	font-size: 14px;
+}
+
+.shortcode-content .short-tabs > div.active {
+	display: block;
+}
+
+.shortcode-content .accordion {
+	display: block;
+	margin-bottom: 25px;
+}
+
+.shortcode-content .accordion > div {
+	display: block;
+	margin-bottom: 5px;
+}
+
+.shortcode-content .accordion > div > a {
+	display: block;
+	padding: 17px 20px;
+	background: #f7f7f7;
+	color: #8b8b8b;
+	font-weight: bold;
+	font-size: 15px;
+	position: relative;
+}
+
+.shortcode-content .accordion > div > a:after {
+	display: block;
+	position: absolute;
+	content: '+';
+	width: 55px;
+	height: 100%;
+	line-height: 55px;
+	right: 0px;
+	top: 0px;
+	text-align: center;
+	font-size: 22px;
+}
+
+.shortcode-content .accordion > div.active > a:after {
+	content: '-';
+}
+
+.shortcode-content .accordion > div > a:hover {
+	background: #f2f2f2;
+}
+
+.shortcode-content .accordion > div > div {
+	display: none;
+	padding: 20px;
+	font-size: 14px;
+	border: 1px solid #f7f7f7;
+}
+
+
+.shortcode-content a.social-icon {
+	display: inline-block;
+	margin-right: 20px;
+	position: relative;
+	color: #232323;
+	text-shadow: 0 1px 0 #fff;
+}
+
+.shortcode-content a.social-icon:after {
+	display: block;
+	clear: both;
+	content: '';
+}
+
+.shortcode-content a.social-icon i.fa {
+	display: inline-block;
+	float: left;
+	width: 25px;
+	background: #232323;
+	color: #fff;
+	text-align: center;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	text-shadow: none;
+	transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-webkit-transition: all 0.2s;
+	-o-transition: all 0.2s;
+}
+
+.shortcode-content a.social-icon b {
+	display: block;
+	margin-left: 35px;
+	font-size: 14px;
+	margin-bottom: 0px;
+	line-height: 100%;
+}
+
+.shortcode-content a.social-icon span {
+	display: block;
+	margin-left: 35px;
+	font-size: 10px;
+	line-height: 100%;
+}
+
+.shortcode-content a.social-icon:hover {
+	color: #333;
+}
+
+.shortcode-content a.social-icon:hover i.fa {
+	background: #4b95d4;
+}
+
+/* Twtitter color */
+.shortcode-content a.social-icon.social-twitter:hover i.fa {
+	background: #00aced;
+}
+
+/* Facebook color */
+.shortcode-content a.social-icon.social-facebook:hover i.fa {
+	background: #3b5998;
+}
+
+/* Google+ color */
+.shortcode-content a.social-icon.social-google-plus:hover i.fa {
+	background: #dd4b39;
+}
+
+/* Pinterest color */
+.shortcode-content a.social-icon.social-pinterest:hover i.fa {
+	background: #cb2027;
+}
+
+/* Instagram color */
+.shortcode-content a.social-icon.social-instagram:hover i.fa {
+	background: #517fa4;
+}
+
+/* Youtube color */
+.shortcode-content a.social-icon.social-youtube:hover i.fa {
+	background: #bb0000;
+}
+
+/* Flickr color */
+.shortcode-content a.social-icon.social-flickr:hover i.fa {
+	background: #ff0084;
+}
+
+/* Linkedin color */
+.shortcode-content a.social-icon.social-linkedin:hover i.fa {
+	background: #007bb6;
+}
+
+/* Dribbble color */
+.shortcode-content a.social-icon.social-dribbble:hover i.fa {
+	background: #ea4c89;
+}
+
+/* Skype color */
+.shortcode-content a.social-icon.social-skype:hover i.fa {
+	background: #12A5F4;
+}
+
+/* Tumblr color */
+.shortcode-content a.social-icon.social-tumblr:hover i.fa {
+	background: #32506d;
+}
+
+/* Vimeo color */
+.shortcode-content a.social-icon.social-vimeo:hover i.fa {
+	background: #aad450;
+}
+
+/* Vkontakte color */
+.shortcode-content a.social-icon.social-vk:hover i.fa {
+	background: #45668e;
+}
+
